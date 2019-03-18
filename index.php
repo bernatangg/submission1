@@ -29,7 +29,7 @@
     $host = "dicodingsubsatu.database.windows.net";
     $user = "dicoding";
     $pass = "Anggie123";
-    $db = "Registration";
+    $db = "[dbo].[Registration]";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
