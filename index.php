@@ -26,8 +26,8 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "subsatuserver.database.windows.net";
-    $user = "submission";
+    $host = "dicodingsubsatu.database.windows.net";
+    $user = "dicoding";
     $pass = "Anggie123";
     $db = "Registration";
     try {
