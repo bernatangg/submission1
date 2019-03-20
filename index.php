@@ -38,6 +38,7 @@
     }
     if (isset($_POST['submit'])) {
         try {
+            echo "Sampai sini: " . $e;
             $name = $_POST['name'];
             $email = $_POST['email'];
             $job = $_POST['job'];
